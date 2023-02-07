@@ -18,8 +18,8 @@ public class CarService {
         return repository.save(car);
     }
     
-    public Car findById(Car car){
-        return repository.findById(car.getId()).orElse(null);
+    public Car findById(Long id){
+        return repository.findById(id).orElse(null);
     }
 
     public List<Car> findAll(){
