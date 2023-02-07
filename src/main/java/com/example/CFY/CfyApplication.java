@@ -1,4 +1,4 @@
-package com.example.CFY;
+package com.example.cfy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
